@@ -67,10 +67,10 @@
 
         default_layer {
             bindings = <
-&kp Q      &kp W                              &kp E                           &kp R                        &kp T                                                          &kp Y      &kp U  &kp I      &kp O    &kp P
-&kp A      &kp S                              &kp D                           &kp F                        &kp G                 &kp LC(UP_ARROW)      &kp LEFT_BRACKET   &kp H      &kp J  &kp K      &kp L    &kp SEMICOLON
-&kp Z      &kp X                              &kp C                           &kp V                        &kp B                 &kp PLUS              &kp RIGHT_BRACKET  &kp N      &kp M  &kp COMMA  &kp DOT  &lt 4 SLASH
-&kp MINUS  &mt LEFT_CONTROL LEFT_PARENTHESIS  &mt LEFT_ALT RIGHT_PARENTHESIS  &mt LC(BACKSPACE) LC(SPACE)  &mt LEFT_SHIFT SPACE  &lt 2 BACKSPACE       &kp TAB            &kp ENTER                             &lt 1 SQT
+&kp Q      &kp W                              &kp E                           &kp R            &kp T                                                          &kp Y      &kp U  &kp I      &kp O    &kp P
+&kp A      &kp S                              &kp D                           &kp F            &kp G                 &kp LC(UP_ARROW)      &kp LEFT_BRACKET   &kp H      &kp J  &kp K      &kp L    &kp SEMICOLON
+&kp Z      &kp X                              &kp C                           &kp V            &kp B                 &kp TAB               &kp RIGHT_BRACKET  &kp N      &kp M  &kp COMMA  &kp DOT  &lt 4 SLASH
+&kp MINUS  &mt LEFT_CONTROL LEFT_PARENTHESIS  &mt LEFT_ALT RIGHT_PARENTHESIS  &lt 2 LC(SPACE)  &mt LEFT_SHIFT SPACE  &lt 2 BACKSPACE       &kp TAB            &kp ENTER                             &lt 1 SQT
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -85,7 +85,7 @@
             >;
         };
 
-        NUM {
+        Symbol {
             bindings = <
 &kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                                   &kp CARET         &kp AMPERSAND      &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
 &kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp EXCLAMATION   &kp AT_SIGN        &kp HASH        &kp DOLLAR            &kp PERCENT
