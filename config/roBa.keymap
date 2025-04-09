@@ -17,29 +17,58 @@
         compatible = "zmk,combos";
 
         tab {
+            timeout-ms = <50>;
             bindings = <&kp TAB>;
-            key-positions = <11 12>;
+            key-positions = <11 12>; // S + D
         };
 
-        shift_tab {
-            bindings = <&kp LS(TAB)>;
-            key-positions = <12 13>;
+        command-tab {
+            timeout-ms = <50>;
+            bindings = <&kp LG(TAB)>;
+            key-positions = <11 12>; // D + F
         };
 
-        muhennkann {
-            bindings = <&to_layer_0 INT_MUHENKAN>;
-            key-positions = <11 10>;
+        command-alt-right_arrow {
+            timeout-ms = <50>;
+            bindings = <&kp LG(LA(RIGHT_ARROW)>;
+            key-positions = <24 25>; // C + V
         };
 
-        double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <20 21>;
+        command-alt-left_arrow {
+            timeout-ms = <50>;
+            bindings = <&kp LG(LA(LEFT_ARROW)>;
+            key-positions = <23 24>; // X + C
         };
 
-        eq {
-            bindings = <&kp EQUAL>;
-            key-positions = <24 25>;
+        enter {
+            timeout-ms = <50>;
+            bindings = <&kp ENTER>;
+            key-positions = <7 8>; // I + O
         };
+
+        space {
+            timeout-ms = <50>;
+            bindings = <&kp SPACE>;
+            key-positions = <19 20>; // K + L
+        };
+
+        backspace {
+            timeout-ms = <50>;
+            bindings = <&kp BACKSPACE>;
+            key-positions = <31 32>; // , + .
+        };
+
+         up_arrow {
+            timeout-ms = <50>;
+            bindings = <&kp UP_ARROW>;
+            key-positions = <18 19>; // J + K
+        };
+
+        down_arrow {
+            timeout-ms = <50>;
+            bindings = <&kp DOWN_ARROW>;
+            key-positions = <30 31>; // M + ,
+        }
     };
 
     macros {
