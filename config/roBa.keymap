@@ -68,7 +68,7 @@
             timeout-ms = <50>;
             bindings = <&kp DOWN_ARROW>;
             key-positions = <30 31>; // M + ,
-        }
+        };
     };
 
     macros {
