@@ -17,49 +17,49 @@
         compatible = "zmk,combos";
 
         tab {
-            timeout-ms = <50>;
+            timeout-ms = <25>;
             bindings = <&kp TAB>;
             key-positions = <11 12>; // S + D
         };
 
         command-alt-right_arrow {
-            timeout-ms = <50>;
+            timeout-ms = <25>;
             bindings = <&kp LG(LA(RIGHT_ARROW))>;
             key-positions = <24 25>; // C + V
         };
 
         command-alt-left_arrow {
-            timeout-ms = <50>;
+            timeout-ms = <25>;
             bindings = <&kp LG(LA(LEFT_ARROW))>;
             key-positions = <23 24>; // X + C
         };
 
         enter {
-            timeout-ms = <50>;
+            timeout-ms = <25>;
             bindings = <&kp ENTER>;
             key-positions = <7 8>; // I + O
         };
 
         space {
-            timeout-ms = <50>;
+            timeout-ms = <25>;
             bindings = <&kp SPACE>;
             key-positions = <19 20>; // K + L
         };
 
         backspace {
-            timeout-ms = <50>;
+            timeout-ms = <25>;
             bindings = <&kp BACKSPACE>;
             key-positions = <31 32>; // , + .
         };
 
          up_arrow {
-            timeout-ms = <50>;
+            timeout-ms = <25>;
             bindings = <&kp UP_ARROW>;
             key-positions = <18 19>; // J + K
         };
 
         down_arrow {
-            timeout-ms = <50>;
+            timeout-ms = <25>;
             bindings = <&kp DOWN_ARROW>;
             key-positions = <30 31>; // M + ,
         };
