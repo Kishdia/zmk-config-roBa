@@ -22,12 +22,6 @@
             key-positions = <11 12>; // S + D
         };
 
-        command-tab {
-            timeout-ms = <50>;
-            bindings = <&kp LG(TAB)>;
-            key-positions = <12 13>; // D + F
-        };
-
         command-alt-right_arrow {
             timeout-ms = <50>;
             bindings = <&kp LG(LA(RIGHT_ARROW))>;
