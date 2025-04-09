@@ -67,10 +67,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W                              &kp E                           &kp R         &kp T                                                                    &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A             &kp S                              &kp D                           &kp F         &kp G                 &kp LG(LA(UP_ARROW))            &kp LEFT_BRACKET   &kp H        &kp J  &kp K      &kp L    &lt 4 SEMICOLON
-&mt LEFT_SHIFT Z  &kp X                              &kp C                           &kp V         &kp B                 &kp LC(SPACE)                   &kp RIGHT_BRACKET  &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&kp MINUS         &mt LEFT_CONTROL LEFT_PARENTHESIS  &mt LEFT_ALT RIGHT_PARENTHESIS  &lt 3 ESCAPE  &mt LEFT_SHIFT SPACE  &mt LEFT_COMMAND BACKSPACE      &lt 1 TAB          &lt 2 ENTER                             &kp SQT
+&kp Q      &kp W                              &kp E                           &kp R  &kp T                                                          &kp Y  &kp U  &lt 5 I    &kp O    &kp P
+&kp A      &kp S                              &kp D                           &kp F  &kp G             &kp LG(LA(UP_ARROW))      &kp LEFT_BRACKET   &kp H  &kp J  &kp K      &kp L    &lt 4 SEMICOLON
+&kp Z      &kp X                              &kp C                           &kp V  &kp B             &kp LC(SPACE)             &kp RIGHT_BRACKET  &kp N  &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp MINUS  &mt LEFT_CONTROL LEFT_PARENTHESIS  &mt LEFT_ALT RIGHT_PARENTHESIS  &mo 3  &kp LEFT_COMMAND  &kp LEFT_SHIFT            &mo 1              &mo 2                             &kp SQT
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
