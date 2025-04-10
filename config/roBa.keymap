@@ -36,7 +36,7 @@
 
         enter {
             timeout-ms = <20>;
-            bindings = <&kp ENTER>;
+            bindings = <&kp BACKSPACE>;
             key-positions = <7 8>; // I + O
         };
 
@@ -48,11 +48,11 @@
 
         backspace {
             timeout-ms = <20>;
-            bindings = <&kp BACKSPACE>;
+            bindings = <&kp ENTER>;
             key-positions = <31 32>; // , + .
         };
 
-         up_arrow {
+        up_arrow {
             timeout-ms = <20>;
             bindings = <&kp UP_ARROW>;
             key-positions = <18 19>; // J + K
@@ -62,6 +62,16 @@
             timeout-ms = <20>;
             bindings = <&kp DOWN_ARROW>;
             key-positions = <30 31>; // M + ,
+        };
+
+        arrow-left {
+            bindings = <&kp LEFT_ARROW>;
+            key-positions = <17 18>;
+        };
+
+        arrow-right {
+            bindings = <&kp RIGHT_ARROW>;
+            key-positions = <29 30>;
         };
     };
 
