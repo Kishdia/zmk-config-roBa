@@ -36,7 +36,7 @@
 
         enter {
             timeout-ms = <20>;
-            bindings = <&kp BACKSPACE>;
+            bindings = <&kp ENTER>;
             key-positions = <7 8>; // I + O
         };
 
@@ -48,7 +48,7 @@
 
         backspace {
             timeout-ms = <20>;
-            bindings = <&kp ENTER>;
+            bindings = <&kp BACKSPACE>;
             key-positions = <31 32>; // , + .
         };
 
