@@ -86,12 +86,14 @@
         compatible = "zmk,kscan-gpio-matrix";
         label = "KSCAN";
         diode-direction = "col2row";
-            row-gpios
-                = <&xiao_d 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-                , <&xiao_d 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-                , <&xiao_d 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-                , <&xiao_d 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-                ;
+        debounce-press-ms = <10>; // Debounce time for key press
+        debounce-release-ms = <5>; // Debounce time for key release
+        row-gpios
+            = <&xiao_d 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&xiao_d 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&xiao_d 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&xiao_d 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        ;
     };
 
     left_encoder: encoder_left {
