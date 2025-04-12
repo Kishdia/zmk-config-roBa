@@ -125,4 +125,10 @@
         status = "disabled";
         reg = <0>;
     };
+
+    behavior_hold_tap {
+        hold-tap-ms = <80>;
+        quick-tap-ms = <23>;
+        flavor = "tap-preferred";
+    };
 };
