@@ -86,8 +86,8 @@
         compatible = "zmk,kscan-gpio-matrix";
         label = "KSCAN";
         diode-direction = "col2row";
-        debounce-press-ms = <10>; // Debounce time for key press
-        debounce-release-ms = <5>; // Debounce time for key release
+        debounce-press-ms = <15>; // Debounce time for key press
+        debounce-release-ms = <10>; // Debounce time for key release
         row-gpios
             = <&xiao_d 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             , <&xiao_d 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
@@ -130,7 +130,7 @@
 
     behavior_hold_tap {
         hold-tap-ms = <80>;
-        quick-tap-ms = <23>;
+        quick-tap-ms = <25>;
         flavor = "tap-preferred";
     };
 };
