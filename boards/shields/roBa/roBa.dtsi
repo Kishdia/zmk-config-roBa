@@ -84,7 +84,6 @@
 
     kscan0: kscan {
         compatible = "zmk,kscan-gpio-matrix";
-        label = "KSCAN";
         diode-direction = "col2row";
         debounce-press-ms = <15>; // Debounce time for key press
         debounce-release-ms = <10>; // Debounce time for key release
@@ -129,7 +128,7 @@
     };
 
     behavior_hold_tap {
-        hold-tap-ms = <80>;
+        hold-tap-ms = <100>;
         quick-tap-ms = <25>;
         flavor = "tap-preferred";
     };
