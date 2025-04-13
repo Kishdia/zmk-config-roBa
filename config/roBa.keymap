@@ -114,10 +114,10 @@
 
         default_layer {
             bindings = <
-&kp Q          &kp W                              &kp E                           &kp R         &kp T                                                    &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A          &kp S                              &kp D                           &kp F         &kp G             &kp MINUS           &kp LEFT_BRACKET   &kp H        &kp J  &kp K      &kp L    &lt 4 SEMICOLON
-&kp Z          &kp X                              &kp C                           &kp V         &kp B             &kp LC(SPACE)       &kp RIGHT_BRACKET  &kp N        &kp M  &kp COMMA  &kp DOT  &lt 1 SLASH
-&kp BACKSLASH  &mt LEFT_CONTROL LEFT_PARENTHESIS  &mt LEFT_ALT RIGHT_PARENTHESIS  &lt 3 ESCAPE  &kp LEFT_COMMAND  &kp LEFT_SHIFT      &kp RIGHT_SHIFT    &lt 2 ENTER                             &lt 6 SQT
+&kp Q          &kp W                              &kp E                           &kp R         &kp T                                                      &kp Y        &kp U  &lt 5 I    &kp O    &kp P
+&kp A          &kp S                              &kp D                           &kp F         &kp G             &kp SINGLE_QUOTE      &kp LEFT_BRACKET   &kp H        &kp J  &kp K      &kp L    &lt 4 MINUS
+&kp Z          &kp X                              &kp C                           &kp V         &kp B             &kp LC(SPACE)         &kp RIGHT_BRACKET  &kp N        &kp M  &kp COMMA  &kp DOT  &lt 1 SLASH
+&kp BACKSLASH  &mt LEFT_CONTROL LEFT_PARENTHESIS  &mt LEFT_ALT RIGHT_PARENTHESIS  &lt 3 ESCAPE  &kp LEFT_COMMAND  &kp LEFT_SHIFT        &kp RIGHT_SHIFT    &lt 2 ENTER                             &lt 6 SEMICOLON
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
@@ -127,7 +127,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans                       &kp F1        &kp F2          &kp F5           &kp F6          &kp F11
 &trans  &trans  &trans  &trans  &trans  &trans      &kp F7   &kp F3        &kp F4          &kp F8           &kp F9          &kp F12
-&trans  &trans  &trans  &trans  &trans  &trans      &kp F10  &kp UP_ARROW  &kp LEFT_ARROW  &kp RIGHT_ARROW  &kp DOWN_ARROW  &kp TAB
+&trans  &trans  &trans  &trans  &trans  &trans      &kp F10  &kp UP_ARROW  &kp LEFT_ARROW  &kp RIGHT_ARROW  &kp DOWN_ARROW  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans                                                         &trans
             >;
         };
