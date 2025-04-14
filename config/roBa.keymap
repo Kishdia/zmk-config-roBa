@@ -66,15 +66,15 @@
             key-positions = <23 24>; // X + C
         };
 
-        enter {
-            timeout-ms = <23>;
-            bindings = <&kp ENTER>;
-            key-positions = <7 8>; // I + O
-        };
-
         space {
             timeout-ms = <23>;
             bindings = <&kp SPACE>;
+            key-positions = <7 8>; // I + O
+        };
+
+        enter {
+            timeout-ms = <23>;
+            bindings = <&kp ENTER>;
             key-positions = <19 20>; // K + L
         };
 
