@@ -39,7 +39,7 @@
         tab {
             timeout-ms = <23>;
             bindings = <&kp TAB>;
-            key-positions = <12 13>; // D + F
+            key-positions = <11 12>; // S + D
         };
 
         undo {
