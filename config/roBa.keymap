@@ -135,7 +135,7 @@
         SYMBOL {
             bindings = <
 &trans           &trans       &trans    &trans      &trans                                     &trans        &trans          &trans           &trans          &trans
-&kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &trans  &trans      &kp LEFT_PARENTHESIS   &kp PERCENT   &kp CARET       &kp AMPERSAND    &kp ASTERISK    &trans
+&kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &trans  &trans      &kp LEFT_PARENTHESIS   &trans        &kp PERCENT     &kp CARET        &kp AMPERSAND   &kp ASTERISK
 &trans           &trans       &trans    &trans      &trans  &trans      &kp RIGHT_PARENTHESIS  &kp UP_ARROW  &kp LEFT_ARROW  &kp RIGHT_ARROW  &kp DOWN_ARROW  &trans
 &trans           &trans       &trans    &trans      &trans  &trans      &trans                 &trans                                                         &trans
             >;
