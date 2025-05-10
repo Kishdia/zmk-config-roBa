@@ -115,28 +115,28 @@
     };
 
 	behaviors {
-		mm_ctrl_m: mod_morph {
+		mm_ctrl_m: mm_ctrl_m {
 			compatible = "zmk,behavior-mod-morph";
 			#binding-cells = <0>;
 			bindings = <&kp M>, <&kp UP>;
 			mods = <MOD_LCTL>;
 		};
 
-		mm_ctrl_k: mod_morph {
+		mm_ctrl_k: mm_ctrl_k {
 			compatible = "zmk,behavior-mod-morph";
 			#binding-cells = <0>;
 			bindings = <&kp K>, <&kp DOWN>;
 			mods = <MOD_LCTL>;
 		};
 
-		mm_ctrl_comma: mod_morph {
+		mm_ctrl_comma: mm_ctrl_comma {
 			compatible = "zmk,behavior-mod-morph";
 			#binding-cells = <0>;
 			bindings = <&kp COMMA>, <&kp LEFT>;
 			mods = <MOD_LCTL>;
 		};
 
-		mm_ctrl_dot: mod_morph {
+		mm_ctrl_dot: mm_ctrl_dot {
 			compatible = "zmk,behavior-mod-morph";
 			#binding-cells = <0>;
 			bindings = <&kp DOT>, <&kp RIGHT>;
