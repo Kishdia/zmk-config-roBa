@@ -85,10 +85,6 @@
     kscan0: kscan {
         compatible = "zmk,kscan-gpio-matrix";
         diode-direction = "col2row";
-        // Prevent voltage drift on long column traces with pull-downs and diodes (RC time constant) from latching high and blocking new key presses
-        // Increase key release debounce to 20–30ms to ensure end-of-matrix lines fully settle before next scan
-        // debounce-press-ms = <25>; // Debounce time for key press
-        // debounce-release-ms = <20>; // Debounce time for key release
         row-gpios
             = <&xiao_d 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             , <&xiao_d 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
