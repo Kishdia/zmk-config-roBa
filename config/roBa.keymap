@@ -115,6 +115,7 @@
         };
 
         HENKAN {
+            timeout-ms = <45>;
             bindings = <&kp LANGUAGE_1>;
             key-positions = <18 13>;
         };
