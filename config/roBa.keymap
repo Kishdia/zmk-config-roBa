@@ -170,7 +170,7 @@
             bindings = <
 &kp Q        &kp W          &kp E      &kp R                   &kp T                                                                      &kp Y        &kp U  &lt 5 I    &kp O    &kp P
 &kp A        &kp S          &kp D      &kp F                   &kp G                   &kp SINGLE_QUOTE              &kp LEFT_BRACKET     &kp H        &kp J  &kp K      &kp L    &lt 4 MINUS
-&kp Z        &kp X          &kp C      &kp V                   &kp B                   &kp SEMICOLON                 &kp RIGHT_BRACKET    &kp N        &kp M  &kp COMMA  &kp DOT  &lt 1 SLASH
+&kp Z        &kp X          &kp C      &kp V                   &kp B                   &lt 7 SEMICOLON               &kp RIGHT_BRACKET    &kp N        &kp M  &kp COMMA  &kp DOT  &lt 1 SLASH
 &lt 6 EQUAL  &kp BACKSLASH  &kp GRAVE  &mt LEFT_ALT BACKSPACE  &mt LEFT_COMMAND ENTER  &mt LEFT_SHIFT LC(SPACE)      &mt RIGHT_SHIFT TAB  &lt 2 SPACE                             &kp RCTRL
             >;
 
@@ -231,12 +231,12 @@
             >;
         };
 
-        layer_7 {
+        MAGNET {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&trans  &trans         &kp RC(LA(LEFT_ARROW))  &kp RC(LA(RIGHT_ARROW))  &kp RC(LA(D))                      &trans  &trans  &trans  &trans  &trans
+&trans  &kp RC(LA(U))  &kp RC(LA(I))           &kp RC(LA(UP_ARROW))     &kp RC(LA(F))  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp RC(LA(J))  &kp RC(LA(K))           &kp RC(LA(DOWN_ARROW))   &kp RC(LA(G))  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &trans                  &trans                   &trans         &trans      &trans  &trans                          &trans
             >;
         };
     };
