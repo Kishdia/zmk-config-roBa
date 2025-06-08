@@ -111,13 +111,13 @@
         EISU {
             timeout-ms = <45>;
             bindings = <&kp LANGUAGE_2>;
-            key-positions = <26 29>;
+            key-positions = <19 12>;
         };
 
         HENKAN {
             timeout-ms = <45>;
             bindings = <&kp LANGUAGE_1>;
-            key-positions = <25 30>;
+            key-positions = <18 13>;
         };
     };
 
@@ -126,6 +126,7 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             bindings = <&kp LANGUAGE_1>, <&kp LANGUAGE_2>;
+
             tapping-term-ms = <300>;
         };
     };
