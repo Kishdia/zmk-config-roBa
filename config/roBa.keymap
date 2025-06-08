@@ -31,91 +31,91 @@
         compatible = "zmk,combos";
 
         escape {
-            timeout-ms = <23>;
+            timeout-ms = <150>;
             bindings = <&kp ESCAPE>;
             key-positions = <1 2>;
         };
 
         tab {
-            timeout-ms = <40>;
+            timeout-ms = <150>;
             bindings = <&kp TAB>;
             key-positions = <11 12>; // S + D
         };
 
         undo {
-            timeout-ms = <40>;
+            timeout-ms = <150>;
             bindings = <&kp LG(Z)>;
             key-positions = <13 14>; // F + G
         };
 
         redo {
-            timeout-ms = <40>;
+            timeout-ms = <150>;
             bindings = <&kp LG(LS(Z))>;
             key-positions = <25 26>; // V + B
         };
 
         command-alt-right_arrow {
-            timeout-ms = <40>;
+            timeout-ms = <150>;
             bindings = <&kp LG(LA(RIGHT_ARROW))>;
             key-positions = <24 25>; // C + V
         };
 
         command-alt-left_arrow {
-            timeout-ms = <40>;
+            timeout-ms = <150>;
             bindings = <&kp LG(LA(LEFT_ARROW))>;
             key-positions = <23 24>; // X + C
         };
 
         space {
-            timeout-ms = <40>;
+            timeout-ms = <150>;
             bindings = <&kp SPACE>;
             key-positions = <7 8>; // I + O
         };
 
         enter {
-            timeout-ms = <40>;
+            timeout-ms = <150>;
             bindings = <&kp ENTER>;
             key-positions = <19 20>; // K + L
         };
 
         backspace {
-            timeout-ms = <40>;
+            timeout-ms = <150>;
             bindings = <&kp BACKSPACE>;
             key-positions = <31 32>; // , + .
         };
 
         up_arrow {
-            timeout-ms = <40>;
+            timeout-ms = <150>;
             bindings = <&kp UP_ARROW>;
             key-positions = <18 19>; // J + K
         };
 
         down_arrow {
-            timeout-ms = <40>;
+            timeout-ms = <150>;
             bindings = <&kp DOWN_ARROW>;
             key-positions = <30 31>; // M + ,
         };
 
         arrow-left {
-            timeout-ms = <40>;
+            timeout-ms = <150>;
             bindings = <&kp LEFT_ARROW>;
             key-positions = <17 18>;
         };
 
         arrow-right {
-            timeout-ms = <40>;
+            timeout-ms = <150>;
             bindings = <&kp RIGHT_ARROW>;
             key-positions = <29 30>;
         };
 
         EISU {
-            timeout-ms = <45>;
+            timeout-ms = <200>;
             bindings = <&kp LANGUAGE_2>;
             key-positions = <19 12>;
         };
 
         HENKAN {
-            timeout-ms = <45>;
+            timeout-ms = <200>;
             bindings = <&kp LANGUAGE_1>;
             key-positions = <18 13>;
         };
