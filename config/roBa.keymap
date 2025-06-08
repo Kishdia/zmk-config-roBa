@@ -117,48 +117,15 @@
         HENKAN {
             timeout-ms = <45>;
             bindings = <&kp LANGUAGE_1>;
-            key-positions = <18 13>;
+            key-positions = <25 30>;
         };
     };
 
     behaviors {
-        mm_ctrl_m: mm_ctrl_m {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp M>, <&kp UP>;
-
-            mods = <MOD_LCTL>;
-        };
-
-        mm_ctrl_k: mm_ctrl_k {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp K>, <&kp DOWN>;
-
-            mods = <MOD_LCTL>;
-        };
-
-        mm_ctrl_comma: mm_ctrl_comma {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp COMMA>, <&kp LEFT>;
-
-            mods = <MOD_LCTL>;
-        };
-
-        mm_ctrl_dot: mm_ctrl_dot {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp DOT>, <&kp RIGHT>;
-
-            mods = <MOD_LCTL>;
-        };
-
         td_lang_toggle: td_lang_toggle {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             bindings = <&kp LANGUAGE_1>, <&kp LANGUAGE_2>;
-
             tapping-term-ms = <300>;
         };
     };
