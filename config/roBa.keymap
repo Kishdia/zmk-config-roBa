@@ -86,14 +86,16 @@
 
         up_arrow {
             timeout-ms = <150>;
-            bindings = <&kp UP_ARROW>;
+            bindings = <&kp LANG1>;
             key-positions = <18 19>; // J + K
+            require-prior-idle-ms = <50>;
         };
 
         down_arrow {
             timeout-ms = <150>;
-            bindings = <&kp DOWN_ARROW>;
+            bindings = <&kp LANG2>;
             key-positions = <30 31>; // M + ,
+            require-prior-idle-ms = <50>;
         };
 
         arrow-left {
