@@ -84,42 +84,18 @@
             key-positions = <31 32>; // , + .
         };
 
-        up_arrow {
-            timeout-ms = <150>;
+        HENKAN {
+            timeout-ms = <200>;
             bindings = <&kp LANG1>;
             key-positions = <18 19>; // J + K
             require-prior-idle-ms = <50>;
         };
 
-        down_arrow {
-            timeout-ms = <150>;
+        EISU {
+            timeout-ms = <200>;
             bindings = <&kp LANG2>;
             key-positions = <30 31>; // M + ,
             require-prior-idle-ms = <50>;
-        };
-
-        arrow-left {
-            timeout-ms = <150>;
-            bindings = <&kp LEFT_ARROW>;
-            key-positions = <17 18>;
-        };
-
-        arrow-right {
-            timeout-ms = <150>;
-            bindings = <&kp RIGHT_ARROW>;
-            key-positions = <29 30>;
-        };
-
-        EISU {
-            timeout-ms = <200>;
-            bindings = <&kp LANGUAGE_2>;
-            key-positions = <19 12>;
-        };
-
-        HENKAN {
-            timeout-ms = <200>;
-            bindings = <&kp LANGUAGE_1>;
-            key-positions = <18 13>;
         };
     };
 
