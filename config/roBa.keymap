@@ -92,7 +92,7 @@
         };
 
         EISU {
-            timeout-ms = <200>;
+            timeout-ms = <100>;
             bindings = <&kp LANG2>;
             key-positions = <30 31>; // M + ,
             require-prior-idle-ms = <50>;
