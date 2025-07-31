@@ -22,12 +22,12 @@ layers:
   - J
   - K
   - L
-  - '-'
+  - {t: '-', h: MOUSE}
   - Z
   - X
   - C
   - V
-  - {t: B, h: MOUSE}
+  - B
   - {t: ;, h: MAGNET}
   - {t: ']', h: BLT}
   - N
@@ -198,12 +198,12 @@ layers:
   - '&mkp MB1'
   - '&mkp MB2'
   - Alt+Gui+UP ARROW
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Gui+DOWN ARROW
