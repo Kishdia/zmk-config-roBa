@@ -27,7 +27,7 @@ layers:
   - X
   - C
   - V
-  - B
+  - {t: B, h: MOUSE}
   - {t: ;, h: MAGNET}
   - {t: ']', h: BLT}
   - N
