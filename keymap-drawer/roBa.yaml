@@ -43,7 +43,7 @@ layers:
   - LEFT SHIFT
   - {t: TAB, h: RIGHT SHIFT}
   - {t: SPACE, h: SYMBOL}
-  - {t: RIGHT ALT, h: CAPS}
+  - {t: CAPS, h: RIGHT ALT}
   FUNCTION:
   - F1
   - F2
