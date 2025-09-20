@@ -37,7 +37,7 @@
         };
 
         tab {
-            timeout-ms = <200>;
+            timeout-ms = <80>;
             bindings = <&kp TAB>;
             key-positions = <11 12>; // S + D
             require-prior-idle-ms = <100>;
@@ -72,10 +72,10 @@
         };
 
         space {
-            timeout-ms = <100>;
+            timeout-ms = <80>;
             bindings = <&kp SPACE>;
             key-positions = <7 8>; // I + O
-            require-prior-idle-ms = <50>;
+            require-prior-idle-ms = <100>;
         };
 
         enter {
@@ -86,10 +86,10 @@
         };
 
         backspace {
-            timeout-ms = <150>;
+            timeout-ms = <100>;
             bindings = <&kp BACKSPACE>;
             key-positions = <31 32>; // , + .
-            require-prior-idle-ms = <100>;
+            require-prior-idle-ms = <50>;
         };
 
         HENKAN {
