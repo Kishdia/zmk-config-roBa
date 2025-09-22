@@ -4,8 +4,10 @@
 #include <dt-bindings/zmk/pointing.h>
 
 &mt {
-    flavor = "balanced";
-    quick-tap-ms = <0>;
+    flavor = "tap-preferred";
+    tapping-term-ms = <170>;
+    quick-tap-ms = <150>;
+    require-prior-idle-ms = <125>;
 };
 
 &trackball {
@@ -30,17 +32,17 @@
         compatible = "zmk,combos";
 
         escape {
-            timeout-ms = <150>;
+            timeout-ms = <100>;
             bindings = <&kp ESCAPE>;
             key-positions = <1 2>;
-            require-prior-idle-ms = <100>;
+            require-prior-idle-ms = <140>;
         };
 
         tab {
-            timeout-ms = <80>;
+            timeout-ms = <100>;
             bindings = <&kp TAB>;
             key-positions = <11 12>; // S + D
-            require-prior-idle-ms = <100>;
+            require-prior-idle-ms = <140>;
         };
 
         undo {
@@ -72,7 +74,7 @@
         };
 
         space {
-            timeout-ms = <80>;
+            timeout-ms = <100>;
             bindings = <&kp SPACE>;
             key-positions = <7 8>; // I + O
             require-prior-idle-ms = <100>;
@@ -82,28 +84,28 @@
             timeout-ms = <100>;
             bindings = <&kp ENTER>;
             key-positions = <19 20>; // K + L
-            require-prior-idle-ms = <50>;
+            require-prior-idle-ms = <140>;
         };
 
         backspace {
             timeout-ms = <100>;
             bindings = <&kp BACKSPACE>;
             key-positions = <31 32>; // , + .
-            require-prior-idle-ms = <50>;
+            require-prior-idle-ms = <140>;
         };
 
         HENKAN {
-            timeout-ms = <200>;
+            timeout-ms = <100>;
             bindings = <&kp LANG1>;
             key-positions = <18 19>; // J + K
-            require-prior-idle-ms = <100>;
+            require-prior-idle-ms = <140>;
         };
 
         EISU {
-            timeout-ms = <80>;
+            timeout-ms = <100>;
             bindings = <&kp LANG2>;
             key-positions = <30 31>; // M + ,
-            require-prior-idle-ms = <100>;
+            require-prior-idle-ms = <140>;
         };
     };
 
