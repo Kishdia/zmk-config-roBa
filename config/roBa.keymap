@@ -5,9 +5,9 @@
 
 &mt {
     flavor = "tap-preferred";
-    tapping-term-ms = <170>;
+    tapping-term-ms = <200>;
     quick-tap-ms = <150>;
-    require-prior-idle-ms = <125>;
+    require-prior-idle-ms = <30>;
 };
 
 &trackball {
@@ -32,80 +32,80 @@
         compatible = "zmk,combos";
 
         escape {
-            timeout-ms = <100>;
+            timeout-ms = <40>;
             bindings = <&kp ESCAPE>;
             key-positions = <1 2>;
-            require-prior-idle-ms = <140>;
+            require-prior-idle-ms = <40>;
         };
 
         tab {
-            timeout-ms = <100>;
+            timeout-ms = <40>;
             bindings = <&kp TAB>;
             key-positions = <11 12>; // S + D
-            require-prior-idle-ms = <140>;
+            require-prior-idle-ms = <40>;
         };
 
         undo {
-            timeout-ms = <150>;
+            timeout-ms = <40>;
             bindings = <&kp LG(Z)>;
             key-positions = <13 14>; // F + G
-            require-prior-idle-ms = <100>;
+            require-prior-idle-ms = <40>;
         };
 
         redo {
-            timeout-ms = <150>;
+            timeout-ms = <40>;
             bindings = <&kp LG(LS(Z))>;
             key-positions = <25 26>; // V + B
-            require-prior-idle-ms = <100>;
+            require-prior-idle-ms = <40>;
         };
 
         command-alt-right_arrow {
-            timeout-ms = <150>;
+            timeout-ms = <40>;
             bindings = <&kp LG(LA(RIGHT_ARROW))>;
             key-positions = <24 25>; // C + V
-            require-prior-idle-ms = <100>;
+            require-prior-idle-ms = <40>;
         };
 
         command-alt-left_arrow {
-            timeout-ms = <150>;
+            timeout-ms = <40>;
             bindings = <&kp LG(LA(LEFT_ARROW))>;
             key-positions = <23 24>; // X + C
-            require-prior-idle-ms = <100>;
+            require-prior-idle-ms = <40>;
         };
 
         space {
-            timeout-ms = <100>;
+            timeout-ms = <40>;
             bindings = <&kp SPACE>;
             key-positions = <7 8>; // I + O
-            require-prior-idle-ms = <100>;
+            require-prior-idle-ms = <40>;
         };
 
         enter {
-            timeout-ms = <100>;
+            timeout-ms = <40>;
             bindings = <&kp ENTER>;
             key-positions = <19 20>; // K + L
-            require-prior-idle-ms = <140>;
+            require-prior-idle-ms = <40>;
         };
 
         backspace {
-            timeout-ms = <100>;
+            timeout-ms = <40>;
             bindings = <&kp BACKSPACE>;
             key-positions = <31 32>; // , + .
-            require-prior-idle-ms = <140>;
+            require-prior-idle-ms = <40>;
         };
 
         HENKAN {
-            timeout-ms = <100>;
+            timeout-ms = <40>;
             bindings = <&kp LANG1>;
             key-positions = <18 19>; // J + K
-            require-prior-idle-ms = <140>;
+            require-prior-idle-ms = <40>;
         };
 
         EISU {
-            timeout-ms = <100>;
+            timeout-ms = <40>;
             bindings = <&kp LANG2>;
             key-positions = <30 31>; // M + ,
-            require-prior-idle-ms = <140>;
+            require-prior-idle-ms = <40>;
         };
     };
 
@@ -115,7 +115,7 @@
             #binding-cells = <0>;
             bindings = <&kp J>, <&kp LANGUAGE_2>;
 
-            tapping-term-ms = <400>;
+            tapping-term-ms = <200>;
         };
     };
 
