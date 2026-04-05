@@ -355,23 +355,34 @@ layers:
 combos:
 - p: [1, 2]
   k: ESCAPE
+  l: [default]
 - p: [11, 12]
   k: TAB
+  l: [default]
 - p: [13, 14]
   k: Gui+Z
+  l: [default]
 - p: [25, 26]
   k: Gui+Sft+Z
+  l: [default]
 - p: [24, 25]
   k: Gui+Alt+RIGHT ARROW
+  l: [default]
 - p: [23, 24]
   k: Gui+Alt+LEFT ARROW
+  l: [default]
 - p: [7, 8]
   k: SPACE
+  l: [default]
 - p: [19, 20]
   k: ENTER
+  l: [default]
 - p: [31, 32]
   k: BACKSPACE
+  l: [default]
 - p: [18, 19]
   k: LANG1
+  l: [default]
 - p: [30, 31]
   k: LANG2
+  l: [default]
