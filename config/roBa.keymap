@@ -200,10 +200,10 @@
 
         MAGNET {
             bindings = <
-&trans  &trans         &kp RC(LA(LEFT_ARROW))  &kp RC(LA(RIGHT_ARROW))  &kp RC(LA(D))                      &trans  &trans  &trans  &trans  &trans
-&trans  &kp RC(LA(U))  &kp RC(LA(I))           &kp RC(LA(UP_ARROW))     &kp RC(LA(F))  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp RC(LA(J))  &kp RC(LA(K))           &kp RC(LA(DOWN_ARROW))   &kp RC(LA(G))  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans         &trans                  &trans                   &trans         &trans      &trans  &trans                          &trans
+&trans  &trans         &kp RC(LA(LEFT_ARROW))  &kp RC(LA(RIGHT_ARROW))  &kp RC(LA(D))                      &trans  &trans                       &trans                      &trans  &trans
+&trans  &kp RC(LA(U))  &kp RC(LA(I))           &kp RC(LA(UP_ARROW))     &kp RC(LA(F))  &trans      &trans  &trans  &kp LC(LA(LG(RIGHT_ARROW)))  &kp LC(LA(LG(LEFT_ARROW)))  &trans  &trans
+&trans  &kp RC(LA(J))  &kp RC(LA(K))           &kp RC(LA(DOWN_ARROW))   &kp RC(LA(G))  &trans      &trans  &trans  &trans                       &trans                      &trans  &trans
+&trans  &trans         &trans                  &trans                   &trans         &trans      &trans  &trans                                                                   &trans
             >;
         };
     };
